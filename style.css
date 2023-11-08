@@ -1,0 +1,213 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+    .container{
+        max-width: 1180px;
+        margin-inline: auto;
+        padding-left: 15px;
+        padding-right: 10px;
+        overflow: hidden;
+        
+    }
+    .flex {
+        display: flex;
+        align-items: center;
+    }
+    
+    .abc{
+        background-color: #58595e;
+    }
+
+    .main-nav{
+        
+        justify-content: space-between;
+        position: relative;
+    
+    
+    }
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+     .logo {
+        color: #fff;
+        height: 3rem;
+        width: 3rem;
+       
+      
+       
+    }
+    .logo span{
+        color: crimson;
+    }
+
+    
+    .company-logo img{
+        width: 200px;
+    
+    }
+    .nav-links{
+    flex-basis: 730px;
+    
+    }
+    .nav-links ul{
+        justify-content:end;
+        gap: 40px;
+        flex-direction: row;
+        
+    }
+    .nav-toggle{
+        display: none;
+    }
+    .nav-links ul a{
+        color: #fff;
+    }
+    .hover-link:hover{
+        color: blue;
+    }
+   
+    .search{
+        width: 100vw;
+        height: 80vh;
+        background-image: url(gaming-illo-2021-billboard-1548-1630594318.webp) ;
+        background-size: cover;
+    }
+    .search .img{
+        width: 100rem;
+    }
+    .search-box{
+        overflow-x: hidden;
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        height: 60px;
+    }
+    .search h2{
+        position: absolute;
+         top: 35%;
+        left: 40%;
+    }
+    .search-text{
+        font-size: medium;
+        height: 45px;
+        width: 600px;
+        padding-left: 10px;
+        outline: none;
+    }
+    .music{
+        color: #fff;
+        background-image: url(marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg);
+        background-size: cover;
+        height: 25rem;
+    }
+    .heading{
+        padding-top: 40px;
+        text-align: center;
+    }
+    .para{
+        padding: 50px;
+    }
+
+    .primary-button{
+        margin-left: 610px;
+        background-color: blue;
+        border-radius: 20px;
+        font-weight: 700;
+        color: white !important;
+        padding: 12px 24px;
+        box-shadow: 0 0 2px grey;
+        transition: 0.2 ease-out;
+    }
+    
+    .primary-button:hover{
+        background-color: blue;
+       
+    }
+
+    .games{
+        color: #fff;
+        background-image: url(florian-olivo-Mf23RF8xArY-unsplash.jpg);
+        background-size: cover;
+        height: 25rem;
+    }
+
+    .secondary-button{
+        margin-left: 720px;
+        background-color: blue;
+        border-radius: 20px;
+        font-weight: 700;
+        color: white !important;
+        padding: 12px 24px;
+        box-shadow: 0 0 2px grey;
+        transition: 0.2 ease-out;
+    }
+    
+    .secondary-button:hover{
+        background-color: blue;
+       
+    }
+
+
+
+
+    footer{
+        position: relative;
+        width: 100%;
+        height: 300px;
+        background:#9ead8e;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    footer p{
+        color: #fff;
+    }
+    
+    footer b{
+        font-size: 17px;
+        margin-bottom: 10px;
+       width: 500px;
+      ;
+        text-align: center;
+        line-height: 25px;
+    }
+    footer a{
+        font-size: 30px;
+       
+        margin-bottom: 0px;
+        font-weight: bold;
+    }
+    .social{
+        display: flex;
+        margin-top: 20px;
+        gap: 30px;
+    }
+    
+    .end{
+        
+        padding-top: 40px;
+        color: crimson;
+        bottom: 0px;
+        font-size: 14px;
+        align-items: center;
+        text-align: center;
+    }
+      
+    .end i{
+        font-size: 10px;
+    }
+    
+
+
+    .para{
+        text-align: center;
+    }
